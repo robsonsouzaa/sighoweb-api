@@ -61,7 +61,6 @@ class CriarHospitalService {
       logradouro,
       numero,
       quantidade_leitos,
-      quantidade_usuarios,
       telefone,
       ramal,
       email,

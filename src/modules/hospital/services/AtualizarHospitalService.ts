@@ -11,7 +11,6 @@ interface IRequest {
   logradouro: string;
   numero: number;
   quantidade_leitos: number;
-  quantidade_usuarios: number;
   telefone: number;
   ramal: number;
   email: string;
@@ -36,7 +35,6 @@ class AtualizarHospitalService {
       logradouro,
       numero,
       quantidade_leitos,
-      quantidade_usuarios,
       telefone,
       ramal,
       email,
@@ -64,7 +62,6 @@ class AtualizarHospitalService {
       logradouro,
       numero,
       quantidade_leitos,
-      quantidade_usuarios,
       telefone,
       ramal,
       email,
